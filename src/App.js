@@ -1,5 +1,4 @@
 import React from 'react';
-import Person from './Person.js';
 import Header from './Header.js';
 import Main from './Main';
 import './App.css';
