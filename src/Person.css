@@ -1,4 +1,4 @@
-article {
+/* article {
   border: 1px solid gray;
   padding: 1vw;
   margin-bottom: 1vw;
@@ -7,19 +7,21 @@ article {
 article img {
   width: 100%
 }
-article p {
+*/
+.card-header .card-text {
   font-size: 11px;
   margin: auto;
   display: inline-block;
   margin-bottom: .5rem;
 }
-article p:last-of-type {
+.card-header .card-text:last-of-type {
   padding-left: 1rem;
   cursor: pointer;
 }
-article p:last-of-type:hover {
+.card-header .card-text:last-of-type:hover {
   color: purple;
 }
+
 .article-button {
-  margin: .2rem .1vw;
+  margin: .4rem .6vw;
 }
